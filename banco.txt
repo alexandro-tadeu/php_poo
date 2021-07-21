@@ -1,0 +1,8 @@
+CREATE TABLE `cadastro` (
+  `Id` int(11) NOT NULL,
+  `Nome` varchar(90) NOT NULL,
+  `Sexo` varchar(30) NOT NULL,
+  `Cidade` varchar(50) NOT NULL
+);
+ALTER TABLE `cadastro` ADD PRIMARY KEY (`Id`);
+ALTER TABLE `cadastro` MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
